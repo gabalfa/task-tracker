@@ -2,15 +2,15 @@ version: 1
 apps:
   - appID: TasksTracker.TasksManager.Backend.Api
     appDirPath: ./TasksTracker.TasksManager.Backend.Api/
-    appPort: 5100
+    # appPort: 5100
     # appPort: 7014
     # daprHTTPPort: 3501
-    appSSL: true
+    # appSSL: true
     command: ["dotnet", "run"]
   - appID: TasksTracker.WebPortal.Frontend.Ui
     appDirPath: ./TasksTracker.WebPortal.Frontend.Ui/
-    appPort: 5276
+    # appPort: 5276
     # appPort: 7086
     # daprHTTPPort: 3500
-    appSSL: true
+    # appSSL: true
     command: ["dotnet", "run"]
