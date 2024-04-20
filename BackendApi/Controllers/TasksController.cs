@@ -1,8 +1,8 @@
 using Microsoft.AspNetCore.Mvc;
-using TasksTracker.TasksManager.Backend.Api.Models;
-using TasksTracker.TasksManager.Backend.Api.Services;
+using BackendApi.Models;
+using BackendApi.Services;
 
-namespace TasksTracker.TasksManager.Backend.Api.Controllers
+namespace BackendApi.Controllers
 {
     [Route("api/tasks")]
     [ApiController]

@@ -1,6 +1,6 @@
-using TasksTracker.TasksManager.Backend.Api.Models;
+using BackendApi.Models;
 
-namespace TasksTracker.TasksManager.Backend.Api.Services
+namespace BackendApi.Services
 {
     public class FakeTasksManager : ITasksManager
     {

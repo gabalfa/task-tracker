@@ -1,6 +1,7 @@
 # General
 .venv
 .env
+*.txt
 *.exe
 *.suo
 *.user
