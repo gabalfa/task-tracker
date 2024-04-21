@@ -7,10 +7,13 @@ apps:
     # daprHTTPPort: 3501
     # appSSL: true
     command: ["dotnet", "run"]
-  - appID: FrontendUi
-    appDirPath: ./FrontendUi/
-    # appPort: 5276
-    # appPort: 7086
-    # daprHTTPPort: 3500
-    # appSSL: true
-    command: ["dotnet", "run"]
+  # - appID: FrontendUi
+  #   appDirPath: ./FrontendUi/
+  # appPort: 5276
+  # appPort: 7086
+  # daprHTTPPort: 3500
+  # appSSL: true
+  # command: ["dotnet", "run"]
+  - appID: frontendnext
+    appDirPath: ./frontendnext/
+    command: ["npm", "start"]

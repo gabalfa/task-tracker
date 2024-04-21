@@ -16,8 +16,8 @@ namespace BackendApi.Services
                     TaskId = Guid.NewGuid(),
                     TaskName = $"Task number: {i}",
                     TaskCreatedBy = "tjoudeh@bitoftech.net",
-                    TaskCreatedOn = DateTime.UtcNow.AddMinutes(i),
-                    TaskDueDate = DateTime.UtcNow.AddDays(i),
+                    TaskCreatedOn = DateTime.UtcNow.AddMinutes(i).ToString(),
+                    TaskDueDate = DateTime.UtcNow.AddDays(i).ToString(),
                     TaskAssignedTo = $"assignee{rnd.Next(50)}@mail.com",
                 };
                 _tasksList.Add(task);
@@ -29,15 +29,15 @@ namespace BackendApi.Services
             GenerateRandomTasks();
         }
 
-        public Task<Guid> CreateNewTask(string taskName, string createdBy, string assignedTo, DateTime dueDate)
+        public Task<Guid> CreateNewTask(string taskName, string createdBy, string assignedTo, String dueDate)
         {
             var task = new TaskModel()
             {
                 TaskId = Guid.NewGuid(),
                 TaskName = taskName,
                 TaskCreatedBy = createdBy,
-                TaskCreatedOn = DateTime.UtcNow,
-                TaskDueDate = dueDate,
+                TaskCreatedOn = DateTime.UtcNow.ToString(),
+                TaskDueDate = dueDate.ToString(),
                 TaskAssignedTo = assignedTo,
             };
 
@@ -84,7 +84,7 @@ namespace BackendApi.Services
             return Task.FromResult(false);
         }
 
-        public Task<bool> UpdateTask(Guid taskId, string taskName, string assignedTo, DateTime dueDate)
+        public Task<bool> UpdateTask(Guid taskId, string taskName, string assignedTo, String dueDate)
         {
             var task = _tasksList.FirstOrDefault(t => t.TaskId.Equals(taskId));
 
@@ -92,7 +92,7 @@ namespace BackendApi.Services
             {
                 task.TaskName = taskName;
                 task.TaskAssignedTo = assignedTo;
-                task.TaskDueDate = dueDate;
+                task.TaskDueDate = dueDate.ToString();
                 return Task.FromResult(true);
             }
 

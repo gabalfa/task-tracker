@@ -66,7 +66,7 @@ namespace BackendApi.Controllers
             return updated ? Ok() : BadRequest();
         }
 
-        [HttpDelete("{taskId}")]
+        [HttpDelete]
         public async Task<IActionResult> Delete(Guid taskId)
         {
             var deleted = await _tasksManager.DeleteTask(taskId);

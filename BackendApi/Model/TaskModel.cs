@@ -5,8 +5,8 @@ namespace BackendApi.Models
         public Guid TaskId { get; set; }
         public string TaskName { get; set; } = string.Empty;
         public string TaskCreatedBy { get; set; } = string.Empty;
-        public DateTime TaskCreatedOn { get; set; }
-        public DateTime TaskDueDate { get; set; }
+        public string TaskCreatedOn { get; set; } = string.Empty;
+        public string TaskDueDate { get; set; } = string.Empty;
         public string TaskAssignedTo { get; set; } = string.Empty;
         public bool IsCompleted { get; set; }
         public bool IsOverDue { get; set; }
@@ -16,7 +16,7 @@ namespace BackendApi.Models
     {
         public string TaskName { get; set; } = string.Empty;
         public string TaskCreatedBy { get; set; } = string.Empty;
-        public DateTime TaskDueDate { get; set; }
+        public string TaskDueDate { get; set; } = string.Empty;
         public string TaskAssignedTo { get; set; } = string.Empty;
     }
 
@@ -24,7 +24,7 @@ namespace BackendApi.Models
     {
         public Guid TaskId { get; set; }
         public string TaskName { get; set; } = string.Empty;
-        public DateTime TaskDueDate { get; set; }
+        public string TaskDueDate { get; set; } = string.Empty;
         public string TaskAssignedTo { get; set; } = string.Empty;
     }
 }
