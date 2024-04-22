@@ -59,7 +59,7 @@ Desde el explorador de internet abrir la URL http://localhost:3000
 ```bash
 dapr dashboard -p 9999
 ```
-- Desde el explorador de internet (Chrome) abrir la URL http://localhost:9999
+- Desde el explorador de internet abrir la URL http://localhost:9999
 
   
 
