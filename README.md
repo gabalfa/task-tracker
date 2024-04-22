@@ -42,7 +42,7 @@ npm install
 npm run build
 cd ..
 ```
-5. **Crear archivo de variables de entorno.**
+5. **Crear el archivo de variables de entorno.**
 - renombrar el archivo que esta en la carpeta ./frontend de: ```.env.example``` a: ```.env```
 ```bash
 cd frontendnext
