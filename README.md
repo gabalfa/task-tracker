@@ -1,8 +1,9 @@
 # PRUEBA TÉCNICA
 
 ### Descripcción
-Con la ayuda de la documentacion oficial de cada herramienta, framework, librerias, tutoriales, repositorios de ejemplo y videos de Youtube, desarrollé dos proyectos, una Webapi con Dotnet 8 y un Front-End web con NextJS, usando una plataforma llamada Dapr, que permite la ejecución de los 2 proyectos de forma distribuida.
-La solución permite hacer el CRUD de una entidad de negocio llamada **tarea**.
+Con la ayuda de la documentacion oficial de cada herramienta, framework, librerias, tutoriales, repositorios de ejemplo y videos de Youtube, desarrollé dos proyectos, una Webapi con Dotnet 8 y un Front-End web con NextJS, usando Dapr, que permite la ejecución de los 2 proyectos de forma distribuida.
+
+Esta solución permite hacer el CRUD de una entidad de negocio llamada **tarea**
 
 # Pasos para la instalación del proyecto.
 
