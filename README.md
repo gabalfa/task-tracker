@@ -14,8 +14,10 @@ Esta solución permite hacer el CRUD de una entidad de negocio llamada **tarea**
    - Visual Studio Code - [Instalación](https://code.visualstudio.com/download)
    - Dapr CLI - [Instalado e inicializado](https://github.com/dapr/cli)
    - Git CLI - [Instalación](https://git-scm.com/downloads)
-   - **Verificar** que no estén ocupados lo puertos que usara el proyecto.
-   - **Abrir** una linea de comandos y correr lo siguiente
+   - **Verificar** que no estén ocupados los puertos que usara el proyecto.
+     **localhost:5010**
+     **localhost:3000**
+   - **Abrir** una terminal de linea de comandos.
      
 2. **Clonar el repositorio.**
 
