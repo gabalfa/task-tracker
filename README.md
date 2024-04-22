@@ -62,8 +62,8 @@ dapr uninstall
 dapr init
 ```
 
-**Abrir el explorador web**
-Desde el explorador de internet abrir la URL http://localhost:3000
+**Abrir en el explorador web**
+Dla URL http://localhost:3000
 
 **Tablero Darp**
 - Desde **otra** linea de comandos, correr
