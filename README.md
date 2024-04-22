@@ -42,7 +42,12 @@ npm run build
 cd ..
 ```
 - renombrar el archivo que esta en la carpeta ./frontend ```.env.example``` a ```.env```
-  
+```bash
+cd ../frontendnext
+mv .env.example .env
+cd ..
+```
+
 - Desde la raiz del proyecto correr:
 
 ```bash
