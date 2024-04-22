@@ -99,7 +99,6 @@ dapr dashboard -p 9999
 #### 6. Resolver inconvenientes técnicos.
 
 - Abordé y solucioné los problemas técnicos que surgieron durante el desarrollo.
-- No habia incluido laa referencia a Dapr.Client en el archivo .csproj
 
 #### 7. Desarrollar el Front-End.
 
