@@ -66,7 +66,7 @@ Desde el explorador de internet abrir la URL http://localhost:3000
 ```bash
 dapr dashboard -p 9999
 ```
-- El anterior comando permite ver el tablero de la UI de Dapr, desde el explorador de internet abrir la URL http://localhost:9999
+El anterior comando permite ver el tablero de la UI de Dapr, desde el explorador de internet abrir la URL http://localhost:9999
 
   
 
