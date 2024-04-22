@@ -41,15 +41,13 @@ npm install
 npm run build
 cd ..
 ```
-
+- renombrar el archivo que esta en la carpeta ./frontend ```.env.example``` a ```.env```
+  
 - Desde la raiz del proyecto correr:
 
 ```bash
 dapr run -f .
 ```
-
-- renombrar el archivo que esta en la carpeta ./frontend ```.env.example``` a ```.env```
-
 - Correr el comando
   
 ```bash
