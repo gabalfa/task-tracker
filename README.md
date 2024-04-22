@@ -53,7 +53,7 @@ cd ..
 ```bash
 dapr run -f .
 ```
-**Nota:** Sí tiene problemas al correr el anterior comando corra los siguientes comandos y vuelva a intentarlo
+**Nota:** Sí tiene problemas para inicializar el proyecto, intente correr los siguientes comandos y vuelva a intentarlo
   
 ```bash
 dapr uninstall
