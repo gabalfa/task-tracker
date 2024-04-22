@@ -39,6 +39,7 @@ dotnet build
 cd ../frontendnext
 npm install
 npm run build
+cd ..
 ```
 
 - Desde la raiz del proyecto correr:
