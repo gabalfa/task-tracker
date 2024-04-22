@@ -48,7 +48,7 @@ cd ..
 dapr run -f .
 ```
 
-- renombrar el archivo .env.example a .env
+- renombrar el archivo que esta en la carpeta ./frontend ```.env.example``` a ```.env```
 
 - Correr el comando
   
