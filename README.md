@@ -48,6 +48,8 @@ cd ..
 dapr run -f .
 ```
 
+- renombrar el archivo .env.example a .env
+
 # Pasos que seguí para resolver la prueba
 
 #### 1. Leer y entender los requirimientos de la prueba técnica.
