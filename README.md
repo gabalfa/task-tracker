@@ -1,9 +1,11 @@
-# Prueba técnica Dapr, Dotnet, Front-End con ReactJS y NextJS
+# PRUEBA TÉCNICA
 
-## Pasos
+## Dapr, Dotnet, Csharp, 
+## ReactJS, NextJS y Tailwind
+
+# Pasos
 
 1. **Leer y entender la documentación de la prueba técnica.**
-   - Leer y entender claramente la documentación de la prueba tecnica..
 
 2. **Priorizar tareas.**
    - Familiarizarme con tecnologías como ACA y Dapr.
@@ -15,7 +17,7 @@
 
 4. **Hacer pruebas de concepto con Dapr.**
    - Revise la documentación de Dapr.
-   - Opté por ejecutar el entorno de forma local con el repositorio de ejemplos de la documentación oficial
+   - Opté por ejecutar el entorno de forma local con el repositorio de ejemplos de la documentación oficial.
 
 5. **Seguir los pasos del workshop.**
    - Seguí la guía, adaptando los pasos que aplicaban al entorno local.
@@ -30,13 +32,11 @@
    - Después de tener la solución en el repositorio de GitHub, verifiqué que todos los pasos funcionaran correctamente.
 
 9. **Escribir la documentación.**
-   - Utilicé mi experiencia para redactar una documentación clara y detallada, facilitando así la comprensión y el uso futuro del proyecto.
+   - Tambien me servió para escribir una mejor documentación.
 
 10. **CI/CD.**
-    - Implementé CI/CD para automatizar el proceso de integración y despliegue, mejorando así la eficiencia del desarrollo.
 
 11. **Testing.**
-    - Desarrollé y ejecuté pruebas exhaustivas para garantizar la calidad y fiabilidad del código.
 
 ## Stack Tecnológico Utilizado
 
