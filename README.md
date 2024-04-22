@@ -27,7 +27,25 @@ git clone https://github.com/gabalfa/task-tracker.git
 cd task-tracker
 ```
 
-- Estando en la raiz del proyecto correr:
+```bash
+cd BackendApi
+dotnet restore
+dotnet build
+```
+
+```bash
+cd frontendnext
+npm install
+npm run build
+```
+
+```bash
+cd frontendnext
+npm install
+npm run build
+```
+
+- Desde la linea de comandos y estando en la raiz del proyecto correr:
 
 ```bash
 dapr run -f .
