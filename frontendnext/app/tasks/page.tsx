@@ -26,16 +26,16 @@ export default async function Home({
         <span className="text-xl">{email}</span>
       </h2>
 
-      <section className="md:mx-auto flex flex-col justify-between border-gray-200 border-opacity-50 px-8 md:p-8">
+      <section className="flex flex-col justify-between border-gray-200 border-opacity-50 py-8">
         {tasks?.length > 0 ? (
-          <article className="">
-            <div className="md:hidden">
+          <article className="2xl:mx-auto px-8">
+            <div className="sm:hidden">
               {tasks?.map((task) => (
                 <fieldset
                   key={task.taskId}
                   className="flex mt-4 w-full rounded-md px-4 border justify-between items-center"
                 >
-                  <legend className="border capitalize rounded-md bg-gray-100 px-4 font-bold text-lg">
+                  <legend className="text-indigo-500 border capitalize rounded-md bg-gray-100 px-4 font-bold text-lg">
                     {task.taskName}
                   </legend>
 
@@ -59,7 +59,7 @@ export default async function Home({
                 </fieldset>
               ))}
             </div>
-            <table className="hidden min-w-full text-gray-900 md:table">
+            <table className="hidden min-w-full text-gray-900 sm:table">
               <thead className="rounded-lg text-left text-sm font-normal">
                 <tr>
                   <th scope="col" className="px-4 py-5 font-medium">
@@ -86,7 +86,7 @@ export default async function Home({
                     className="w-full border-b py-3 text-sm last-of-type:border-none [&:first-child>td:first-child]:rounded-tl-lg [&:first-child>td:last-child]:rounded-tr-lg [&:last-child>td:first-child]:rounded-bl-lg [&:last-child>td:last-child]:rounded-br-lg"
                   >
                     <td className="whitespace-nowrap py-3 px-4">
-                      <div className="flex items-center gap-3 font-bold text-lg capitalize">
+                      <div className="text-indigo-500 flex items-center gap-3 font-bold text-lg capitalize">
                         <p>{task.taskName}</p>
                       </div>
                     </td>
@@ -116,18 +116,21 @@ export default async function Home({
         ) : (
           <h1 className="self-center text-2xl text-red-300">No Matches</h1>
         )}
+      </section>
+
+      <div className="self-center w-80">
         <Suspense>
           <CreateButton />
         </Suspense>
         <Link href={`/`} className="w-full">
           <button
             type="submit"
-            className="my-4 w-full uppercase font-bold flex-shrink-0 text-center text-white bg-orange-500 border-0 h-12 focus:outline-none hover:bg-orange-600 rounded"
+            className="my-8 w-full uppercase font-bold flex-shrink-0 text-center text-white bg-orange-500 border-0 h-12 focus:outline-none hover:bg-orange-600 rounded"
           >
             back
           </button>
         </Link>
-      </section>
+      </div>
     </main>
   );
 }
