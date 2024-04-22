@@ -26,7 +26,7 @@ Esta solución permite hacer el CRUD de una entidad de negocio llamada **tarea**
 git clone https://github.com/gabalfa/task-tracker.git
 cd task-tracker
 ```
-
+3. **Compilar el Back-End.**
 - Desde la linea de comandos y estando en la raiz del proyecto correr:
 
 ```bash
@@ -34,20 +34,21 @@ cd BackendApi
 dotnet restore
 dotnet build
 ```
-
+4. **Compilar el Front-End.**
 ```bash
 cd ../frontendnext
 npm install
 npm run build
 cd ..
 ```
+5. **Crear archivo de variables de entorno.**
 - renombrar el archivo que esta en la carpeta ./frontend de: ```.env.example``` a: ```.env```
 ```bash
 cd frontendnext
 mv .env.example .env
 cd ..
 ```
-
+6. **Iniciar la solución**
 - Desde la raiz del proyecto, este comando inicia Dapr y los proyectos:
 
 ```bash
@@ -60,15 +61,15 @@ dapr uninstall
 dapr init
 ```
 
+**Abrir el explorador web**
 Desde el explorador de internet abrir la URL http://localhost:3000
-   
-- Desde otra linea de comandos, correr
+
+**Tablero Darp**
+- Desde **otra** linea de comandos, correr
 ```bash
 dapr dashboard -p 9999
 ```
-El anterior comando permite ver el tablero de la UI de Dapr, desde el explorador de internet abrir la URL http://localhost:9999
-
-  
+Desde el explorador de internet abrir la URL http://localhost:9999
 
 # Pasos que seguí para resolver la prueba
 
