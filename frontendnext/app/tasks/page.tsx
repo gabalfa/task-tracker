@@ -1,5 +1,6 @@
 //@ts-nocheck
 import { Suspense } from "react";
+import Link from "next/link";
 import Header from "@/app/ui/main-header";
 import CompleteTask from "@/app/ui/complete-task";
 import CreateButton from "@/app/ui/create-button";
@@ -118,6 +119,14 @@ export default async function Home({
         <Suspense>
           <CreateButton />
         </Suspense>
+        <Link href={`/`} className="w-full">
+          <button
+            type="submit"
+            className="my-4 w-full uppercase font-bold flex-shrink-0 text-center text-white bg-orange-500 border-0 h-12 focus:outline-none hover:bg-orange-600 rounded"
+          >
+            back
+          </button>
+        </Link>
       </section>
     </main>
   );
