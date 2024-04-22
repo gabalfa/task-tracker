@@ -48,14 +48,14 @@ mv .env.example .env
 cd ..
 ```
 
-- Desde la raiz del proyecto correr:
+- Desde la raiz del proyecto:
 
 ```bash
 dapr run -f .
 ```
+Desde el explorador de internet abrir la URL http://localhost:3000
+   
 - Correr el comando
-  - Desde el explorador de internet abrir la URL http://localhost:3000
-
 ```bash
 dapr dashboard -p 9999
 ```
