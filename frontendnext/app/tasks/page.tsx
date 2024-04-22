@@ -26,7 +26,7 @@ export default async function Home({
       </h2>
 
       <section className="md:mx-auto flex flex-col justify-between border-gray-200 border-opacity-50 px-8 md:p-8">
-        {tasks.length > 0 ? (
+        {tasks?.length > 0 ? (
           <article className="">
             <div className="md:hidden">
               {tasks?.map((task) => (

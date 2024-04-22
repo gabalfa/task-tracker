@@ -20,7 +20,6 @@ export async function createTask(formData: FormData) {
     });
   } catch (error) {
     console.error("Failed to fetch a new Task:", error);
-    throw new Error("Failed to fetch a new Task.");
   }
 
   revalidatePath("/tasks?email=" + formData.get("taskCreatedBy"));
@@ -34,7 +33,6 @@ export async function deleteTask(taskId: string) {
     });
   } catch (error) {
     console.error("Failed to fetch deleting a Task:", error);
-    throw new Error("Failed to fetch deleting a Task.");
   }
 
   revalidatePath("/tasks");
@@ -47,7 +45,6 @@ export async function completeTask(taskId: string) {
     });
   } catch (error) {
     console.error("Failed to fetch deleting a Task:", error);
-    throw new Error("Failed to fetch deleting a Task.");
   }
 
   revalidatePath("/tasks");

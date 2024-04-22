@@ -11,7 +11,6 @@ export async function getTasksByEmail(email: string) {
     return tasks;
   } catch (error) {
     console.error("Failed to fetch user:", error);
-    throw new Error("Failed to fetch user.");
   }
 }
 
@@ -25,7 +24,6 @@ export async function createTasks(email?: Task) {
     return tasks;
   } catch (error) {
     console.error("Failed to fetch user:", error);
-    throw new Error("Failed to fetch user.");
   }
 }
 
@@ -39,6 +37,5 @@ export async function deleteTasks(email: Task) {
     return tasks;
   } catch (error) {
     console.error("Failed to fetch user:", error);
-    throw new Error("Failed to fetch user.");
   }
 }
