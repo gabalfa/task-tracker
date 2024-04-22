@@ -69,19 +69,15 @@ dapr run -f .
 - Después de tener la solución en el repositorio de GitHub, verifiqué que todos los pasos funcionaran correctamente.
 - Tambien me servió para escribir una mejor documentación.
 
-#### 9. CI/CD.
-
-#### 10. Testing.
-
 # Stack Tecnológico Utilizado
 
-## Dapr, Dotnet, Csharp,
-
-## ReactJS, NextJS y Tailwind
+## Dapr - Dotnet - Csharp,
 
 ![Dapr](https://dapr.io/images/dapr.svg)
 ![DotNet](https://img.icons8.com/color/100/net-framework.png)
 ![C#](https://img.icons8.com/ios-filled/100/c-sharp-logo.png)
+
+## ReactJS - NextJS - Tailwind
 
 ![javascript](https://img.icons8.com/color/100/javascript--v1.png)
 ![typescript](https://img.icons8.com/fluency/100/typescript--v1.png)
