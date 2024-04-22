@@ -18,7 +18,7 @@ La solución permite hacer el CRUD de una entidad de negocio llamada **tarea**.
 
    **Verificar** que no estén ocupados lo puertos que usara el proyecto.
 
-   **Abrir** una linea de comandos y correr los siguientes
+   **Abrir** una linea de comandos y correr lo siguiente
 
 [repositorio en Github](https://github.com/gabalfa/task-tracker)
 
