@@ -6,7 +6,7 @@
    - Dotnet 8.0 - [Instalación .Net Core](https://dotnet.microsoft.com/download)
    - NodeJS - [Instalación](https://nodejs.org/en/download)
    - Docker Desktop - [Instalado e inicializado](https://www.docker.com/products/docker-desktop/)
-   - Visual Studio Code - [Instalación](https://www.docker.com/products/docker-desktop/)
+   - Visual Studio Code - [Instalación](https://code.visualstudio.com/download)
    - Dapr CLI - [Instalado e inicializado](https://github.com/dapr/cli)
    - VS Code Dapr extension - [Instalación](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-dapr)
    - Git CLI - [Instalación](https://git-scm.com/downloads)
