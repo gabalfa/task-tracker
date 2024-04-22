@@ -63,7 +63,7 @@ dapr init
 ```
 
 **Abrir en el explorador web**
-Dla URL http://localhost:3000
+la URL http://localhost:3000
 
 **Tablero Darp**
 - Desde **otra** linea de comandos, correr
