@@ -28,7 +28,7 @@ cd task-tracker
 ```
 
 - Desde la linea de comandos y estando en la raiz del proyecto correr:
-- 
+
 ```bash
 cd BackendApi
 dotnet restore
