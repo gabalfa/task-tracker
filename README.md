@@ -20,7 +20,7 @@ La solución permite hacer el CRUD de una entidad de negocio llamada **tarea**.
 
    **Abrir** una linea de comandos y correr los siguientes
 
-https://github.com/gabalfa/task-tracker
+[repositorio en Github](https://github.com/gabalfa/task-tracker)
 
 ```bash
 git clone https://github.com/gabalfa/task-tracker.git
