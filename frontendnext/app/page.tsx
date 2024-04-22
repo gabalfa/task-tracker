@@ -10,7 +10,7 @@ export default function Home() {
 
       <section className="text-center border-2 rounded-lg border-gray-200 border-opacity-50 p-8 h-60 mx-2">
         <h2 className="text-lg title-font font-medium my-4">
-          Welcome Task Traker!
+          Welcome to Tasks Traker!
         </h2>
 
         <Suspense>

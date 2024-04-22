@@ -14,7 +14,7 @@ export default function Search() {
     var validRegex =
       /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/;
     if (!show.match(validRegex)) {
-      alert("Invalid email address!");
+      alert("Invalid email address");
       return false;
     }
     router.push("/tasks?email=" + show);
