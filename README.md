@@ -49,18 +49,25 @@ mv .env.example .env
 cd ..
 ```
 
-- Desde la raiz del proyecto:
+- Desde la raiz del proyecto, este comando inicia Dapr y los proyectos:
 
 ```bash
 dapr run -f .
 ```
+**Nota:** Sí tiene problemas al correr el anterior comando corra los siguientes comandos y vuelva a intentarlo
+  
+```bash
+dapr uninstall
+dapr init
+```
+
 Desde el explorador de internet abrir la URL http://localhost:3000
    
-- Correr el comando
+- Desde otra linea de comandos, correr
 ```bash
 dapr dashboard -p 9999
 ```
-- Desde el explorador de internet abrir la URL http://localhost:9999
+- El anterior comando permite ver el tablero de la UI de Dapr, desde el explorador de internet abrir la URL http://localhost:9999
 
   
 
