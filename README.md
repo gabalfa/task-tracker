@@ -3,18 +3,19 @@
 ## Pasos
 
 1. **Leer y entender la documentación de la prueba técnica.**
-   - Tomé el tiempo necesario para comprender claramente los requisitos y expectativas de la prueba técnica.
+   - Leer y entender claramente la documentación de la prueba tecnica..
 
 2. **Priorizar tareas.**
-   - Entendí la importancia de familiarizarme con tecnologías como ACA y Dapr.
-   - Decidí dejar para más tarde el trabajo en CI/CD y Testing, dándoles una prioridad más baja.
+   - Familiarizarme con tecnologías como ACA y Dapr.
+   - Decidí dar menor priorida al CI/CD y Testing.
 
 3. **Leer la documentación del workshop y entender claramente.**
    - Configuré mi entorno de desarrollo según las indicaciones.
-   - Aunque encontré un ejemplo para desplegar en ACA, no pude seguir todos los pasos debido a la necesidad de una licencia de Azure.
+   - En el workshop encontré varios pasos para desplegar en ACA, no los pude seguir.
 
 4. **Hacer pruebas de concepto con Dapr.**
-   - Opté por ejecutar el entorno de manera local para realizar pruebas de concepto.
+   - Revise la documentación de Dapr.
+   - Opté por ejecutar el entorno de forma local con el repositorio de ejemplos de la documentación oficial
 
 5. **Seguir los pasos del workshop.**
    - Seguí la guía, adaptando los pasos que aplicaban al entorno local.
