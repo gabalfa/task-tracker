@@ -1,4 +1,6 @@
 version: 1
+common:
+  resourcesPath: ./
 apps:
   - appID: BackendApi
     appDirPath: ./BackendApi/
