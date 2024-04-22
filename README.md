@@ -1,7 +1,7 @@
 # PRUEBA TÉCNICA
 
 ### Descripcción
-Desarrollé dos proyectos, una webapi con Dotnet 8 y un front-end web con NextJs y ReactJS, atravez de una plataforma llamada Dapr que permite su ejecución de forma distribuida.
+Desarrollé dos proyectos, una webapi con Dotnet 8 y un front-end web con NextJs y ReactJS, usando una plataforma llamada Dapr, que permite su ejecución de forma distribuida.
 El proyecto permite hacer CRUD de una entidad de negocio llamada **tarea**.
 
 # Pasos para la instalación del proyecto.
