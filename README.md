@@ -12,9 +12,9 @@
    - Git CLI - [Instalación](https://git-scm.com/downloads)
 2. **Clonar el repositorio.**
 
-   **Verificar** que no se esten ocupados lo puertos que usa el proyecto.
+   **Verificar** que no estén ocupados lo puertos que usara el proyecto.
 
-   **Abrir** una linea de comandos y correr los siguientes,
+   **Abrir** una linea de comandos y correr los siguientes
 
 https://github.com/gabalfa/task-tracker
 
