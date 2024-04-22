@@ -35,7 +35,7 @@ dapr run -f .
 
 # Pasos que seguí para resolver la prueba
 
-#### 1. Leer y entender la documentación de la prueba técnica.
+#### 1. Leer y entender los requirimientos de la prueba técnica.
 
 #### 2. Priorizar tareas.
 
