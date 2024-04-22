@@ -15,8 +15,8 @@ Esta solución permite hacer el CRUD de una entidad de negocio llamada **tarea**
    - Dapr CLI - [Instalado e inicializado](https://github.com/dapr/cli)
    - Git CLI - [Instalación](https://git-scm.com/downloads)
    - **Verificar** que no estén ocupados los puertos que usara el proyecto.
-     **localhost:5010**
-     **localhost:3000**
+     [back-end](http://localhost:5010)
+     [front-end](http://localhost:3000)
    - **Abrir** una terminal de linea de comandos.
      
 2. **Clonar el repositorio.**
