@@ -45,9 +45,11 @@
 ![C#](https://img.icons8.com/ios-filled/100/c-sharp-logo.png)
 
 ![javascript](https://img.icons8.com/color/100/javascript--v1.png)
+![typescript](https://img.icons8.com/fluency/48/typescript--v1.png)
 ![NextJs](https://img.icons8.com/color/100/nextjs.png)
 ![ReactJs](https://img.icons8.com/officel/100/react.png)
-![ReactJs](https://img.icons8.com/color/100/tailwind_css.png)
+![tailwind](https://img.icons8.com/color/100/tailwind_css.png)
+
 --- 
 
 Este README refleja mi proceso de trabajo y los pasos seguidos para completar la prueba técnica.
