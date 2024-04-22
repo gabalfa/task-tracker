@@ -50,6 +50,16 @@ dapr run -f .
 
 - renombrar el archivo .env.example a .env
 
+- Correr el comando
+  
+```bash
+dapr dashboard -p 9999
+```
+
+- Desde el explorador de internet (Chrome) abrir la URL http://localhost:9999
+- Desde el explorador de internet abrir la URL http://localhost:3000
+  
+
 # Pasos que seguí para resolver la prueba
 
 #### 1. Leer y entender los requirimientos de la prueba técnica.
